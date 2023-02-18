@@ -16,20 +16,20 @@ int main(void)
 
 	while (c <= 98)
 	{
-		d_f = (c / 10 + '0');
+		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
 		c2 = 0;
 		while (c2 <= 99)
 		{
 			f_d2 = (c2 / 10 + '0');
-			l_d2 = (c2 & 10 + '0');
+			l_d2 = (c2 % 10 + '0');
 
 			if (c < c2)
 			{
 				putchar(f_d);
 				putchar(l_d);
 				putchar(' ');
-				patchar(f_d2);
+				putchar(f_d2);
 				putchar(l_d2);
 
 				if (c != 98)
