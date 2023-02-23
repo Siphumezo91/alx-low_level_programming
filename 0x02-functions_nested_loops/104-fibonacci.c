@@ -1,44 +1,24 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the first 98 Fibonacci numbers, starting with 1 and 2
- * Return: Always 0
+ * main - prints all numbers from input to 98
+ * @n: the starting number
  */
 
-int main(void)
+void print_to_98(int n)
 {
-	unsigned long int i;
-	unsigned long int bef = 1;
-	unsigned long int aft = 2;
-       	unsigned long int 1 = 1000000000;
-	unsigned long int bef1;
-	unsigned long int bef2;
-	unsigned long int aft1;
-	unsigned long int aft2;
-
-	pruntf("%lu", bef);
-
-	for (i = 1; i < 91; i++)
+	if (n >= 98)
 	{
-		printf(", %lu", aft);
-		aft += bef;
-	}
-	bef1 = (bef / 1);
-	bef2 = (bef % 1);
-	aft1 = (aft / 1);
-	aft2 = (aft % 1);
 
-	for (i = 92; i < 99; ++i)
-	{
-		printf(", %lu", aft1 + (aft2 / 1));
-		printf("%lu", aft2 % 1);
-		aft1 = aft1 + bef1;
-		bef1 = aft1 - bef1;
-		aft2 = aft2 + bef2;
-		bef2 = aft2 - bef2;
+		while (n > 98)
+			pritnf("%d, ", n--);
+		printf("%d\n", n);
 	}
-	printf("\n");
-	return (0);
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
+	}
 }
-
-
