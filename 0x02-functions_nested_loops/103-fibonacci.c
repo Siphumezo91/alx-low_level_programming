@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	long int j, k, next, sum;
 
-	j = 1
+	j = 1;
 	k = 2;
 	sum = 0;
 
