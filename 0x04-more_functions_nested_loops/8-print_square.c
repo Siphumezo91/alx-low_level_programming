@@ -3,6 +3,7 @@
 /**
  * print_square - print a square, followed by a new line
  * @size: size of square
+ * return: empty
  */
 
 void print_square(int size)
