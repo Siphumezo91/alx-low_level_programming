@@ -1,1 +1,1 @@
-Learning C programming readme file
+0x05. C - Pointers, arrays and strings
