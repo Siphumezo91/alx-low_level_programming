@@ -2,17 +2,18 @@
 
 /**
  * _pow_recursion - Returns the value of x raised to the power of y
- * @x: input
- * @y: input
- * Return: the value multiplied y times
+ * @x: The number to be raised
+ * @y: The power.
+ * Return: the value of x raised to the power of y.
  */
 
 int _pow_recursion(int x, int y)
 {
+	int results = x;
+
 	if (y < 0)
 		return (-1);
 
-	if (y == 0)
+	else if (y == 0)
 		return (1);
-	return (x * _poow_recursion(x, y - 1));
 }
