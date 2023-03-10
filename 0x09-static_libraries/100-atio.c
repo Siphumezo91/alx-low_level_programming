@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - Main point
+ * Main point
  * Return: Always 0
  */
 
