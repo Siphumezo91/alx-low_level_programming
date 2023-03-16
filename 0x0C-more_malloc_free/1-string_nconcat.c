@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_concat - concatenates wto strings
+ * string_nconcat - concatenates wto strings
  * @s1: first string
  * @s2: second string
  * @n: index
