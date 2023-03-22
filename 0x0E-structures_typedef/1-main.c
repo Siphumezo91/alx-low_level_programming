@@ -9,7 +9,8 @@
 int main(void)
 {
 	struct dog my_dog;
-	init_dog(&my_dog, "pooppy", 3.5, "Bob");
+
+	init_dog(&my_dog, "poppy", 3.5, "Bob");
 	printf("my name is %s, and I am %1f :) -Woof!\n", my_dog.name, my_dog.age);
 	return (0);
 }
